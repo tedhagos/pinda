@@ -8,15 +8,13 @@ import android.widget.LinearLayout
 
 
 class FirstView < LinearLayout 
-    
-    def initialize(ctx:Context)
-       super(ctx) 
-       
-       @mtext = TextView.new ctx
-       @mtext.setText "Ready"
-       setOrientation(LinearLayout.VERTICAL)
-       addView(@mtext)
-       
+  
+  def initialize(ctx:Context)
+    super(ctx) 
+      @mtext = TextView.new ctx
+      @mtext.setText "Ready"
+      setOrientation(LinearLayout.VERTICAL)
+      addView(@mtext)  
     end
 end
 

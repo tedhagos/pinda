@@ -1,0 +1,7 @@
+require "rubygems"
+require "pindah"
+
+Pindah.spec = {
+  :name => "dbsample",
+  :target_version => "2.1"
+}
